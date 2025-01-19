@@ -1,0 +1,22 @@
+name: Run Maven
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    
+    - uses: actions/checkout@v4
+    - name: Set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '23.0.1'
+        distribution: 'temurin'
+        cache: maven
+        
+    - name: Build with Maven
+      run: mvn clean --file pom.xml
