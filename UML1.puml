@@ -1,0 +1,12 @@
+@@startuml
+tool -> user: select an option from the Menu
+user --> tool: Add Task
+tool -> user: Enter Title
+user --> tool: "enters The title"
+tool -> user: Enter Description
+user --> tool: "enters the decription of the task"
+tool -> user: Enter The priority (High, Medium, Low)
+user --> tool: "enters the priority"
+tool -> user: Task added successfully
+
+@@enduml
