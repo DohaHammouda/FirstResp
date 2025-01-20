@@ -160,6 +160,7 @@ The reader will be scrolling vertically and not horizontally for easier reading 
 
 
 Example for the 4 points are all in the screenshot below:
+
 <img width="189" alt="image" src="https://github.com/user-attachments/assets/27040a82-02e0-4cd3-bdcf-94aaa58ea0b1" />
 
 
@@ -195,11 +196,19 @@ I installed Maven using my terminal and created a dummy pom.xml file using chatg
 
 I used the commands: mvn clean, mvn compile, mvn package and mvn test
 
+mvn clean:
+
 <img width="452" alt="image" src="https://github.com/user-attachments/assets/9bd900f4-887b-4f1e-8a88-c03138e49a80" />
+
+mvn compile:
 
 <img width="452" alt="image" src="https://github.com/user-attachments/assets/de207894-4985-4c3a-ba87-b38f3e69b7e0" />
 
+mvn package:
+
 <img width="452" alt="image" src="https://github.com/user-attachments/assets/1241b3d6-c81f-4e54-bc39-672fd90e88b0" />
+
+mvn test:
 
 <img width="452" alt="image" src="https://github.com/user-attachments/assets/53365f5f-7f33-4125-baa4-6e72ffa257e6" />
 
