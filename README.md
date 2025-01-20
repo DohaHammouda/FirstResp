@@ -216,6 +216,9 @@ mvn test:
 
 I used Github Actions to complete this task, I ran the script for Maven using mvn clean
 
+<img width="716" alt="Screenshot 2025-01-20 at 17 11 47" src="https://github.com/user-attachments/assets/28968d9a-7967-47b6-8d2f-888043fc75c5" />
+
+
 <img width="357" alt="image" src="https://github.com/user-attachments/assets/fc118b52-eea9-4c40-bc92-6895910c5652" />
 
 
