@@ -40,7 +40,9 @@ Design 3: "Activity Diagram for "add task" class:
 <img width="101" alt="image" src="https://github.com/user-attachments/assets/925c19ed-1f61-417f-a89a-6e50abbb8a2c" />
 
 <ins>**Task 3**</ins>: Requirments:
-"I'll add the link Here"
+Link for Jira: https://dohahammouda.atlassian.net/browse/SCRUM-1?atlOrigin=eyJpIjoiNWI3OTIzNjUwOTNkNDc0YTg0YjJmYTE5NWI4YTUyZjkiLCJwIjoiaiJ9)
+
+Link for Notion: https://www.notion.so/Task-3-Requirements-120f16341c8880fa8710f933b16d3ed3
 
 1.The program shall provide a text-based interface for the users to guide them through the available options. 
 
@@ -113,7 +115,6 @@ This app differentiates itself by focusing solely on home-cooked meals.
 
 <ins>**Task 5**</ins>: DDD:
 
-"Core Diagram I'll put here"
 Domains: 
 -Task Added (user creates the task)
 -Task Deleted(user remove the task)
@@ -127,6 +128,10 @@ Extra Domains (doesn’t exist just for expansion)
 -Team assignemt(allow users to share and assign tasks to others)
 -Task Analysis (allows users to view completed or overdue tasks per day)
 
+Core Domain Diagram on Mira: 
+
+<img width="873" alt="Screenshot 2025-01-20 at 20 51 17" src="https://github.com/user-attachments/assets/d1f8b189-3542-475e-b0f0-1719ab21986f" />
+
 Mapping:  
 <img width="356" alt="image" src="https://github.com/user-attachments/assets/3c677732-afee-4c6d-bf20-7df2c02196d1" />
 
@@ -136,10 +141,10 @@ Mapping:
 
 <ins>**Task 7**</ins>: Clean code:
 
-"I'll add the PDF here"
+[CCD Cheat sheet.pdf](https://github.com/user-attachments/files/18482052/CCD.Cheat.sheet.pdf)
 
 1. Meaningful Naming:
-I’ve user clear names for the functions and methods to clearly indicate their purpose and describe what’s the use of each function 
+I’ve used clear names for the functions and methods to clearly indicate their purpose and describe what’s the use of each function 
 The benefit:
 Easy for everyone to read the code and understand it’s functionality without the need for additional comments
 
@@ -158,8 +163,17 @@ I used short as possible lines of code that fits into the screen.
 The Benefit: 
 The reader will be scrolling vertically and not horizontally for easier reading (this could be done by a tool called Clang, but it wasn’t used in this code)
 
+5.Meaningful error messages:
+I used easy error messages to use in the code, always use a clear error message. Example of good error message “No tasks available” or “Task not found”. Example of a bad one to show “Error 404”
+The Benifit: it's easier for the user to understand what's wrong with their input.
 
-Example for the 4 points are all in the screenshot below:
+6.	Add Comments:
+Add comments when necessary to give a short description for why something was done in this way or what was not being done.
+The Benifit: so it's easier for your team to understand without the need to ask.
+
+
+
+Example for the 4 points shows in the screenshot below:
 
 <img width="189" alt="image" src="https://github.com/user-attachments/assets/27040a82-02e0-4cd3-bdcf-94aaa58ea0b1" />
 
@@ -223,15 +237,44 @@ Screenshots:
 <img width="716" alt="Screenshot 2025-01-20 at 17 11 47" src="https://github.com/user-attachments/assets/28968d9a-7967-47b6-8d2f-888043fc75c5" />
 
 
+
 <img width="357" alt="image" src="https://github.com/user-attachments/assets/fc118b52-eea9-4c40-bc92-6895910c5652" />
 
 
 <ins>**Task 11**</ins>: unit tests:
 "I'll put it here"
 
-<ins>**Task 12**</ins>:Use a good IDE and get fluent with it: e.g. VSCode, IntelliJ. What are your favourite key shortcuts?!
+<ins>**Task 12**</ins>:favourite key shortcuts in VS on mac:
 
-I always used VS code and here are my favoriite shortcuts:
+n+F1 then choose reload window, it reloads the window in case it's frozen
+
+<img width="1259" alt="Screenshot 2025-01-20 at 22 03 48" src="https://github.com/user-attachments/assets/291e2bda-650c-44b2-84d8-fe7bb4619e62" />
+
+option+shift+up or down, it duplicate a line
+
+<img width="1259" alt="Screenshot 2025-01-20 at 22 11 44" src="https://github.com/user-attachments/assets/099be936-ea8c-48ca-9c4b-77027886457d" />
+
+option+shift+K to delete a line
+
+Command+F to search 
+
+<img width="1259" alt="Screenshot 2025-01-20 at 22 16 04" src="https://github.com/user-attachments/assets/07feb49e-fa45-4390-b19c-1552f565e805" />
+
+command+/ to comment the entire line
+
+<img width="1269" alt="Screenshot 2025-01-20 at 22 22 55" src="https://github.com/user-attachments/assets/b8214344-2388-4bb4-bb8f-aa56f4b08b30" />
+
+Shift+option+A to comment an entire block
+
+<img width="1269" alt="Screenshot 2025-01-20 at 22 25 42" src="https://github.com/user-attachments/assets/1734f680-3648-4cd9-a95e-a09664a38bfd" />
+
+Command+S to save
+Command+N for a new file
+Command+W to close the file
+Command+Z to reverse the action
+Command+C to copy
+Command+V to paste
+
 
 <ins>**Task 13**</ins>: 
 I installed ZED: 
