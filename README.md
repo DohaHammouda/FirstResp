@@ -1,4 +1,4 @@
-#Task 1: (getting Familiar with Git)
+<ins>**Task 1**</ins>: (getting Familiar with Git)
 I created the code in my VS first and uploaded it on my Repository on GitHub
 Screenshot 1: shows that I uploaded my code on GitHub directly (in the previous task) by merging the branch in blue.
 
@@ -25,7 +25,7 @@ Screenshot 6: I used git pull to get the changes I made online saved locally
 
 <img width="452" alt="image" src="https://github.com/user-attachments/assets/40f65d61-fd3b-4d89-ab89-b589712b0d21" />
 
-#Task2: UML
+<ins>**Task2**</ins>: UML
 Design 1: "add task":
 
 <img width="134" alt="image" src="https://github.com/user-attachments/assets/47497500-6db2-4d6f-ac43-af080430712b" />
@@ -39,7 +39,7 @@ Design 3: "Activity Diagram for "add task" class:
 
 <img width="101" alt="image" src="https://github.com/user-attachments/assets/925c19ed-1f61-417f-a89a-6e50abbb8a2c" />
 
-#Task 3: Requirments:
+**Task 3**: Requirments:
 "I'll add the link Here"
 
 1.The program shall provide a text-based interface for the users to guide them through the available options. 
@@ -52,7 +52,7 @@ Design 3: "Activity Diagram for "add task" class:
 
 5.The program shall allow the user to delete any existing task.
 
-#Task 4: Analysis:
+<ins>**Task 4**</ins>: Analysis:
 I’ll be carrying out the analysis on a start up idea:
 
 Overview:
