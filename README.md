@@ -214,7 +214,11 @@ mvn test:
 
 <ins>**Task 10**</ins>: CI:
 
-I used Github Actions to complete this task, I ran the script for Maven using mvn clean
+I used Github Actions to complete this task, I ran the script for Maven using mvn clean. 
+
+Link" https://github.com/DohaHammouda/FirstResp/tree/main/.github"
+
+Screenshots:
 
 <img width="716" alt="Screenshot 2025-01-20 at 17 11 47" src="https://github.com/user-attachments/assets/28968d9a-7967-47b6-8d2f-888043fc75c5" />
 
