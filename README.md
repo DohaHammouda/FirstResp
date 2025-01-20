@@ -40,6 +40,7 @@ Design 3: "Activity Diagram for "add task" class:
 <img width="101" alt="image" src="https://github.com/user-attachments/assets/925c19ed-1f61-417f-a89a-6e50abbb8a2c" />
 
 <ins>**Task 3**</ins>: Requirments:
+
 Link for Jira: https://dohahammouda.atlassian.net/browse/SCRUM-1?atlOrigin=eyJpIjoiNWI3OTIzNjUwOTNkNDc0YTg0YjJmYTE5NWI4YTUyZjkiLCJwIjoiaiJ9)
 
 Link for Notion: https://www.notion.so/Task-3-Requirements-120f16341c8880fa8710f933b16d3ed3
@@ -55,6 +56,7 @@ Link for Notion: https://www.notion.so/Task-3-Requirements-120f16341c8880fa8710f
 5.The program shall allow the user to delete any existing task.
 
 <ins>**Task 4**</ins>: Analysis:
+
 I’ll be carrying out the analysis on a start up idea:
 
 Overview:
@@ -241,6 +243,7 @@ Screenshots:
 <img width="357" alt="image" src="https://github.com/user-attachments/assets/fc118b52-eea9-4c40-bc92-6895910c5652" />
 
 
+
 <ins>**Task 11**</ins>: unit tests:
 "I'll put it here"
 
@@ -269,15 +272,32 @@ Shift+option+A to comment an entire block
 <img width="1269" alt="Screenshot 2025-01-20 at 22 25 42" src="https://github.com/user-attachments/assets/1734f680-3648-4cd9-a95e-a09664a38bfd" />
 
 Command+S to save
+
 Command+N for a new file
+
 Command+W to close the file
+
 Command+Z to reverse the action
+
 Command+C to copy
+
 Command+V to paste
 
 
 <ins>**Task 13**</ins>: 
-I installed ZED: 
-"I'll add screenshots here"
+I installed ZED
+
+Command: generate a TicTacToe in python on LLama 3.2
+
+
+<img width="633" alt="Screenshot 2025-01-20 at 23 15 50" src="https://github.com/user-attachments/assets/c4e0d417-965b-4500-accb-33356b66d67e" />
+
+
+<img width="645" alt="Screenshot 2025-01-20 at 23 14 59" src="https://github.com/user-attachments/assets/85979304-bfba-42eb-84ee-096768f0daa8" />
+
+
+<img width="323" alt="Screenshot 2025-01-20 at 23 15 21" src="https://github.com/user-attachments/assets/b19bc01a-ae1c-42bd-ad33-ebea1ee2c7df" />
+
+
 
 
