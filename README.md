@@ -28,7 +28,7 @@ Screenshot 6: I used git pull to get the changes I made online saved locally
 <ins>**Task2**</ins>: UML
 Design 1: "Use Case":
 
-<img width="925" alt="Screenshot 2025-01-21 at 23 33 39" src="https://github.com/user-attachments/assets/f6c51441-cdd5-45ab-875c-ec650de0caef" />
+<img width="579" alt="Screenshot 2025-01-22 at 00 31 53" src="https://github.com/user-attachments/assets/4c79f360-536f-44f6-aeb7-7f80c8a2d76c" />
 
 
 Design 2: "class Diagram":
