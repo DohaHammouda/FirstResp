@@ -32,12 +32,16 @@ Design 1: "add task":
 
 Design 2: "class Diagram":
 
-<img width="95" alt="image" src="https://github.com/user-attachments/assets/71d3b079-db09-4954-ae0b-786c3f5d0700" />
-<img width="117" alt="image" src="https://github.com/user-attachments/assets/ee2e5fbd-f3bb-42be-8bac-83dbf238ee48" />
 
-Design 3: "Activity Diagram for "add task" class:
+<img width="640" alt="Screenshot 2025-01-21 at 22 46 58" src="https://github.com/user-attachments/assets/279f5140-3731-45b8-9bcb-aba1b4e40e97" />
 
-<img width="101" alt="image" src="https://github.com/user-attachments/assets/925c19ed-1f61-417f-a89a-6e50abbb8a2c" />
+
+
+Design 3: "Activity Diagram":
+
+
+<img width="925" alt="Screenshot 2025-01-21 at 23 33 39" src="https://github.com/user-attachments/assets/871b031e-83f1-4703-af2e-8a48d2b607f9" />
+
 
 <ins>**Task 3**</ins>: Requirments:
 
