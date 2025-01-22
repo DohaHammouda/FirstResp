@@ -1,5 +1,3 @@
-//This comment is added so I can experience time travel using git
-
 package SoftwareEnginerring;
 
 import java.util.ArrayList;
@@ -25,20 +23,20 @@ public class TaskManager {
         }
         tasks.sort(Comparator.comparingInt(Task::getPriority));
         for (int i = 0; i < tasks.size(); i++) {
-            System.out.println((i + 1) + ". " + tasks.get(i));
+            System.out.println((i + 1) + ". " + tasks.get(i)); // Display tasks with 1-based indexing
         }
     }
 
     public void markTaskComplete(int taskIndex) {
         if (isValidIndex(taskIndex)) {
-            tasks.get(taskIndex - 1).markComplete();
+            tasks.get(taskIndex - 1).markComplete(); // Mark task as complete
             System.out.println("Task marked as complete.");
         }
     }
 
     public void deleteTask(int taskIndex) {
         if (isValidIndex(taskIndex)) {
-            tasks.remove(taskIndex - 1);
+            tasks.remove(taskIndex - 1); // Remove task from list
             System.out.println("Task deleted successfully.");
         }
     }
@@ -49,5 +47,10 @@ public class TaskManager {
             return false;
         }
         return true;
+    }
+
+    // Get the count of tasks
+    public int getTaskCount() {
+        return tasks.size();
     }
 }
