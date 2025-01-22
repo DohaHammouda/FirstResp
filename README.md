@@ -125,53 +125,32 @@ This app differentiates itself by focusing solely on home-cooked meals.
 A)Event Storming:
 
 Main events: 
-
 Add Task: user creates a task with prorperties like: title, description and priority.
-
 Mark Task as complete: if the user mark a specific to complete, Task's "isComplete" flag is set to true.
-
 Delete task: when the user deletes a task, it's removed from TaskManager list.
-
 List Tasks: All tasks are being shown.
 
 Commands:
-
 addTask(title, description, priortity)
-
 MarkTaskComplete(title)
-
 deleteTask(title)
-
 listTasks()
 
 Aggregates:
-
 Task: represent a single to-do item.
-
-userInterface: helps user interaction with TaskManager.
-
+userInterface: hlps user interaction with TaskManager.
 TaskManager: manage the operations and inputs in tasks.
 
 Domains: 
-
 TaskManagement: the core domain, responsible for managing tasks, adding, deleting, listing and updating their status. 
-
 userManagment: supporting domain, add user's specific tasks.
-
 Notification system: supporting domain,triggers notifcations from (Task added and Task completed)
-
 Analytics and management: suppporting domain to analyze data from the tasks to generata insights.
-
 Extra supporting Domains (doesn’t exist just for expansion):
-
 Tag Management: it allows user to add tags to the task like work or personal.
-
 Schedueling and deadlines: it allows users to sync the tasks with their calander to keep an eye on the deadlines.
-
 Priority managment:handles tasks viewing to the user based on their priority.
-
 Collaberation and sharing: allows users to share their taks with team mebers and callobarate on them.
-
 Audit and history: keep track of changes on taks.
 
 Core Domain Diagram on Miro: 
