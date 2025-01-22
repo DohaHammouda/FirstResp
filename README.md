@@ -374,4 +374,37 @@ Command: generate a TicTacToe in python on LLama 3.2
 
 <ins>**Task 14**</ins>: Functional programming:
 
+1)only final data structures
+
+My code didn't have any final data structure so i had to edit this method to include it
+
+<img width="779" alt="Screenshot 2025-01-22 at 22 34 02" src="https://github.com/user-attachments/assets/ad995966-0e87-4e02-bd6c-b37aa75b3ebe" />
+
+2):side-effect-free functions
+
+<img width="520" alt="Screenshot 2025-01-22 at 22 48 06" src="https://github.com/user-attachments/assets/1c31f380-55d4-4425-8e5a-abfe9948393a" />
+
+it's side effect free as it does not interact with external systems, It only calculates and returns a value.
+
+<img width="520" alt="Screenshot 2025-01-22 at 22 49 08" src="https://github.com/user-attachments/assets/c67f7b32-f2f8-4e22-8805-8164fac20775" />
+
+3)use of higher-order functions
+I also didn't have any higher order functions so I integrated one into my code below:
+
+
+<img width="789" alt="Screenshot 2025-01-22 at 23 06 35" src="https://github.com/user-attachments/assets/06b1280c-262e-4130-9e6e-fad447499bed" />
+
+4)functions as parameters and return values
+
+<img width="789" alt="Screenshot 2025-01-22 at 23 15 00" src="https://github.com/user-attachments/assets/6c8a4a3d-5541-42c9-8de3-d1981a0cf3b1" />
+
+
+5)use closures / anonymous functions
+
+<img width="789" alt="Screenshot 2025-01-22 at 23 17 52" src="https://github.com/user-attachments/assets/1075ebb5-a55b-47d6-b22e-aca7dd8df48f" />
+
+
+
+
+
 
