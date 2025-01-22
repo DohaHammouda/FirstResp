@@ -187,8 +187,26 @@ on LucidChart:
 
 
 
-<ins>**Task 6**</ins>: 
-"I'll add it here"
+<ins>**Task 6**</ins>:Metrics: 
+Metrics were calculated using Sonarcube and sonnarscanner. I insalled them then ran the following command to get the metrics. please note I used my old windows laptop as Sonarqube was triggering an error on my mac.
+
+I used these commands to get the metrics: 
+  -mvn clean verify sonar:sonar \
+  -Dsonar.projectKey=task6 \
+  -Dsonar.projectName='task6' \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.token=sqp_b3a08d94b98f79951e248564ffe92e8a9de6d63c
+
+![image](https://github.com/user-attachments/assets/f806d36d-655d-4bc0-87f7-ad76561e9247)
+
+![image](https://github.com/user-attachments/assets/4a146615-ac35-425c-9274-4f1686b437aa)
+
+![image](https://github.com/user-attachments/assets/6c0deb82-cc7c-414d-9190-a364b60abd54)
+
+it shows that I have no coverage as I didn't have any tests integrated in the code while doing this task.
+it shows no duplications as I don't have any duplicate lines or blocks in my code
+
+
 
 <ins>**Task 7**</ins>: Clean code:
 
@@ -294,7 +312,13 @@ Screenshots:
 
 
 <ins>**Task 11**</ins>: unit tests:
-"I'll put it here"
+
+on the branch https://github.com/DohaHammouda/FirstResp/tree/unit-test, I created a unit-test to test the Task module. I adjusted pom.xml to run the tests using mvn test. The tests were successful
+
+3 assertion testing 3 functions as shown below:
+
+![image](https://github.com/user-attachments/assets/0807efdb-5ccd-4ba7-840d-5bd78dee8fb8)
+
 
 <ins>**Task 12**</ins>:favourite key shortcuts in VS on mac:
 
@@ -348,5 +372,6 @@ Command: generate a TicTacToe in python on LLama 3.2
 <img width="323" alt="Screenshot 2025-01-20 at 23 15 21" src="https://github.com/user-attachments/assets/b19bc01a-ae1c-42bd-ad33-ebea1ee2c7df" />
 
 
+<ins>**Task 14**</ins>: Functional programming:
 
 
