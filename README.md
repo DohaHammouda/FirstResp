@@ -122,25 +122,49 @@ This app differentiates itself by focusing solely on home-cooked meals.
 
 <ins>**Task 5**</ins>: DDD:
 
+A)Event Storming:
+
+Main events: 
+Add Task: user creates a task with prorperties like: title, description and priority.
+Mark Task as complete: if the user mark a specific to complete, Task's "isComplete" flag is set to true.
+Delete task: when the user deletes a task, it's removed from TaskManager list.
+List Tasks: All tasks are being shown.
+
+Commands:
+addTask(title, description, priortity)
+MarkTaskComplete(title)
+deleteTask(title)
+listTasks()
+
+Aggregates:
+Task: represent a single to-do item.
+userInterface: helps user interaction with TaskManager.
+TaskManager: manage the operations and inputs in tasks.
+
 Domains: 
--Task Added (user creates the task)
--Task Deleted(user remove the task)
--Task Marked as completed(user marks task as done)
--Task updated (change priority or due date)
+TaskManagement: the core domain, responsible for managing tasks, adding, deleting, listing and updating their status. 
+userManagment: supporting domain, add user's specific tasks.
+Notification system: supporting domain,triggers notifcations from (Task added and Task completed)
+Analytics and management: suppporting domain to analyze data from the tasks to generata insights.
+
+Extra supporting Domains (doesn’t exist just for expansion):
+Tag Management: it allows user to add tags to the task like work or personal.
+Schedueling and deadlines: it allows users to sync the tasks with their calander to keep an eye on the deadlines.
+Priority managment:handles tasks viewing to the user based on their priority.
+Collaberation and sharing: allows users to share their taks with team mebers and callobarate on them.
+Audit and history: keep track of changes on taks.
+
+Core Domain Diagram on Miro: 
 
 
+<img width="951" alt="Screenshot 2025-01-22 at 20 56 26" src="https://github.com/user-attachments/assets/a5b4db17-749e-447f-a460-f3fdbbdec3a8" />
 
-Extra Domains (doesn’t exist just for expansion)
--Notficiation system( program notifies user about deadlines or overdue tasks)
--Team assignemt(allow users to share and assign tasks to others)
--Task Analysis (allows users to view completed or overdue tasks per day)
 
-Core Domain Diagram on Mira: 
+on LucidChart:
 
-<img width="873" alt="Screenshot 2025-01-20 at 20 51 17" src="https://github.com/user-attachments/assets/d1f8b189-3542-475e-b0f0-1719ab21986f" />
 
-Mapping:  
-<img width="356" alt="image" src="https://github.com/user-attachments/assets/3c677732-afee-4c6d-bf20-7df2c02196d1" />
+![Blank diagram-3](https://github.com/user-attachments/assets/9c1285dd-ffdb-4b3c-a0ce-1a15ddb56767)
+
 
 
 <ins>**Task 6**</ins>: 
