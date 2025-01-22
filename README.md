@@ -373,6 +373,7 @@ Command: generate a TicTacToe in python on LLama 3.2
 
 
 <ins>**Task 14**</ins>: Functional programming:
+I used AI to help me refactor some of the methods to achieve the needed outcome
 
 1)only final data structures
 
